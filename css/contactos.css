@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f5f1e8;
+    margin: 0;
+}
+
+.nav{
+    background-image:url(../img/salon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f3e34;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: 0.5s;
+}
+nav:hover{
+    background-color: #3f5245;
+}
+
+h1{
+    color: #f5f1e8;
+    font-size: 70px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    color: #f5f1e8;
+    text-decoration: none;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #c7d36f;
+    transform: scale(1.1);
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
