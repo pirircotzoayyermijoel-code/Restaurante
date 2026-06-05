@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f5f1e8;
+    background-color: #22b508;
     margin: 0;
 }
 
@@ -69,3 +69,81 @@ img{
     height: auto;
     border-radius: 15px;
 }
+/* inicio */
+ .inicio{
+    
+    height:100pc;
+    background-color: rgb(72, 135, 97);
+   text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+ }
+ 
+
+ .inicio2{
+    background-color: rgb(60, 220, 116);
+   border-radius: 15px;
+   transition: transform 0.3s ease;
+   margin-top: 50px;
+   
+ }
+ 
+ .inicio2:hover{
+    transform: scale(1.1);
+    z-index: 100;
+ }
+
+ .inicio3{
+    background-color: rgb(51, 228, 113);
+   border-radius: 15px;
+   transition: transform 0.3s ease;
+   margin-top: 50px;
+   
+ }
+ 
+ .inicio3:hover{
+    transform: scale(1.1);
+    z-index: 100;
+ }
+ .inicio4{
+    background-color: rgb(51, 228, 113);
+   border-radius: 15px;
+   transition: transform 0.3s ease;
+   margin-top: 50px;
+   
+ }
+ 
+ .inicio4:hover{
+    transform: scale(1.1);
+    z-index: 100;
+ }
+
+ img{
+    width: 10%;
+    position: relative;
+    left: 35%;
+     transition: transform 0.3s ease;
+ }
+ img:hover{
+    transform:scale(1.1);
+    z-index:100;
+
+}
+h3{
+    font-size: 50px;
+    color: rgb(2, 160, 68);
+}
+h4{
+font-size: 50px;
+
+}
+.h4{
+    font-size: 50px;
+    
+}
+ 
+ 
+ 
+ 
