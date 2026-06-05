@@ -111,7 +111,7 @@ p{
     width: 100%;
     padding: 10px 0;
     gap: 40px;
-    background-color: rgb(2, 75, 78);
+    background-color: rgb(1, 59, 61);
     color: #f0ecec;
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
@@ -121,7 +121,7 @@ p{
 }
 
 .CONTENEDOR button:hover {
-    background-color: rgb(6, 86, 10);
+    background-color: rgb(2, 93, 7);
     color: rgb(250, 244, 244);
     transform: translateY(3px);
    
