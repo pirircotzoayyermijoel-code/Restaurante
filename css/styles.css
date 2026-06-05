@@ -74,10 +74,6 @@ p{
     text-align: center;
 }
 
-.contenedor-padre{
-    width:100%;
-    max-width:430px;
-}
 .contenedor-slogan{
     display: flex;
     flex-direction: column;
@@ -107,36 +103,75 @@ p{
     border-radius: 10px;
     text-align: center;
 }
+@media (max-width: 767px) {
 
-@media (min-width: 1200px) {
-.contenedor-slogan{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #506757;
-    height: 100px;
+    nav{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .contenedor-slogan{
+        height: auto;
+        padding: 20px;
+    }
+
+    .contenedor-informacion{
+        width: 95%;
+        padding: 20px;
+    }
 }
- .contenedor-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
+@media (min-width: 768px) and (max-width: 1023px) {
 
- }
- .contenedor-informacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #89a992;
-    padding: 50px 20px;
-    margin-top: 25px;
-    width: 90%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    text-align: center;
+    nav{
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    ul{
+        gap: 20px;
+        margin-right: 20px;
+    }
+
+    a{
+        font-size: 22px;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    .contenedor-informacion{
+        width: 90%;
+        padding: 30px;
+    }
 }
 
-}
