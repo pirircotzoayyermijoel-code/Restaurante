@@ -69,10 +69,11 @@ img{
     height: auto;
     border-radius: 15px;
 }
-.contenedor h2{
-  font-size: 2rem;
+.contenedor-titulo h2{
+  font-size: 3rem;
   margin-top: 2px;
-  color:rgb(13, 13, 13);
+  background-color: rgb(92, 138, 82);
+  color:rgb(0, 0, 0);
   text-align: center;
 }
 .contenedor-tarjetas h3{
@@ -126,7 +127,7 @@ img{
     height: auto;
     border-radius: 15px;
 }
-.contenedor h2{
+.contenedor-titulo h2{
   font-size: 2rem;
   margin-top: 2px;
   color:rgb(13, 13, 13);
