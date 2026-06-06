@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f5f1e8;
+    background-color: #eeeeec;
     margin: 0;
 }
 
@@ -34,7 +34,7 @@ nav:hover{
 }
 
 h1{
-    color: #f5f1e8;
+    color: #070707;
     font-size: 70px;
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -64,8 +64,41 @@ a:hover{
     transform: scale(1.1);
 }
 
-img{
-    width: 400px;
-    height: auto;
-    border-radius: 15px;
+.color{
+    color: #0e0e0e;
+    text-align: center;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.foto{
+    background: #2f3e34;
+    padding: 50px;
+}
+
+.foto:hover{
+ transform: scale(1.05);
+ transition: transform 0.5s ease;
+
+}
+
+
+.foto img{
+    width: 300px;
+    border-color: #2f3e34;
+    border-style: solid;
+    border-width: 10px;
+
+}
+
+.foto{
+    transition: transform 0.5s ease;
 }
