@@ -1,10 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #eeeeec;
+    background-color: #bea767;
     margin: 0;
 }
 
@@ -34,7 +35,7 @@ nav:hover{
 }
 
 h1{
-    color: #070707;
+    color: #f3f3f3;
     font-size: 70px;
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -65,7 +66,7 @@ a:hover{
 }
 
 .color{
-    color: #0e0e0e;
+    color: #03370a;
     text-align: center;
 }
 .galeria{
@@ -73,6 +74,7 @@ a:hover{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: center;
     max-width: 1200px;
     padding: 20px;
     text-align: center;
@@ -82,6 +84,11 @@ a:hover{
 .foto{
     background: #2f3e34;
     padding: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
 }
 
 .foto:hover{
@@ -101,4 +108,78 @@ a:hover{
 
 .foto{
     transition: transform 0.5s ease;
+}
+
+@media (max-width: 767px){
+
+    nav{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+    .nav{
+        height: 300px;
+    }
+
+    .foto{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foto img{
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    h1{
+        font-size: 55px;
+    }
+
+    a{
+        font-size: 22px;
+    }
+
+    .foto{
+        width: 320px;
+        height: auto;
+        padding: 30px;
+    }
+
+    .foto img{
+        width: 250px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .foto{
+        width: 400px;
+        height: 400px;
+        padding: 50px;
+    }
+
+    .foto img{
+        width: 300px;
+    }
 }
