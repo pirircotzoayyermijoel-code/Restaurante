@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f5f1e8;
+    background-color: #ebe8bef4;
     margin: 0;
 }
 
@@ -13,19 +13,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
-    width: 100%;
 }
 
 nav{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2f3e34;
     padding: 20px 40px;
-    position: sticky;
-    top: 0;
     z-index: 1000;
     transition: 0.5s;
 }
@@ -69,4 +64,3 @@ img{
     height: auto;
     border-radius: 15px;
 }
-
