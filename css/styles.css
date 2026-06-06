@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f5f1e8;
+    background-color: #ebe8bef4;
     margin: 0;
 }
 
@@ -102,6 +102,7 @@ p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
+    color: #fffafa;
 }
 @media (max-width: 767px) {
 
@@ -172,6 +173,7 @@ p{
     .contenedor-informacion{
         width: 90%;
         padding: 30px;
+        color: #fffafa;
     }
 }
 
